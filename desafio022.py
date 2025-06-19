@@ -12,3 +12,5 @@ print(f'A quantidade de letras em seu nome é de: {len(nomeesp)}')
 firstname = nome.split()
 # Apresentando o primeiro nome
 print(f'O seu primeiro nome é: {firstname[0]}')
+# Contando a quantidade de letras do primeiro nome
+print(f'A quantidade de letras no seu primeiro nome é de {len(firstname[0])}')
