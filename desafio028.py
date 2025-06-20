@@ -8,4 +8,4 @@ jog = int(input("Digite um número: "))
 if jog == num:
     print('você acertou! :D')
 else:
-    print("Você errou! :(")
+    print(f'Você errou! Eu pensei no número {num}:(')
