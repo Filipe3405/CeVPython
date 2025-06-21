@@ -4,7 +4,6 @@ salario = float(input('Digite o valor do seu salário: R$'))
 anos = int(input('Digite em quantos anos você deseja pagar: '))
 prest = (casa / (anos*12))
 print(f'A quantidade de parcelas será {prest}')
-limite = salario * 0.3
 if prest <= salario * 0.3:
     print('Seu empréstimo foi aceito')
 else:
