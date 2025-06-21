@@ -7,7 +7,7 @@ n2 = float(input('Digite a sua segunda nota: '))
 med = (n1+n2)/2
 if med < 5:
     print(F'Média final: {med}. REPROVADO')
-elif med > 7:
+elif med >= 7:
     print(f'Média final {med}. APROVADO')
 else:
     print(f'Média final {med}. RECUPERAÇÃO')
