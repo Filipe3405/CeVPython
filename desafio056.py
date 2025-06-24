@@ -5,7 +5,6 @@ nov = 0
 idade = 0
 old = 0
 older = ''
-woman = 0
 for c in range (1,5):
     print(f'====== {c}º Pessoa ======')
     name = input('Digite seu nome: ').title().strip()
