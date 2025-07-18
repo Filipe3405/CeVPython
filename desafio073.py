@@ -5,12 +5,12 @@
 # d) Em que posição está o time da Chapecoense -> mirassol.
 times = ('Cruzeiro', 'Flamengo', 'Bragantino', 'Bahia', 'Palmeiras', 'Botafogo', 'Fluminense', 'Atlético MG','Corinthians', 'Ceará SC', 'Mirassol', 'Grêmio', 'Santos', 'Internacional', 'Vasco da Gama', 'São Paulo', 'EC Vitória', 'Juventude', 'Fortaleza', 'Sport Recife')
 #Os 5 primeiros times
-print(times[0:5])
+print(f'Os primeiros 5 times do campeonato são: {times[0:5]}')
 # Os últimos 4 colocados
-print(times[16:20])
+print(f'Os últimos 4 times do campeonato são: {times[16:20]}')
 # Em ordem alfabética
 print(sorted(times))
 #Posição do Mirassol
 for pos, time in enumerate(times):
     if time == 'Mirassol':
-         print(f'{time} na posição {pos}')
+         print(f'O {time} está na posição {pos+1}')
