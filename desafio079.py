@@ -12,6 +12,5 @@ while True:
         break
     elif cont!= 'S':
         cont = input('Digite uma opção válida [S/N]: ')
-lista = (lista)
 print(sorted(lista))
         
