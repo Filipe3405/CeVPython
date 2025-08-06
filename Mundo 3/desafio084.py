@@ -12,7 +12,7 @@ while True:
     print('-='*30)
     dados.append(input('Nome: ').title())
     totalpessoas += 1
-    dados.append(int(input('Peso: ')))
+    dados.append(float(input('Peso: ')))
     pesototal += dados[1]
     pessoas.append(dados[:])
     dados.clear()
