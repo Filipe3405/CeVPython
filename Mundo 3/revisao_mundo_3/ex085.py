@@ -2,19 +2,19 @@
 '''
 valores = list()
 
-for i in range(0,7):
-    numero = int(input('Digite um número: '))
+for i in range(1,8):
+    numero = int(input(f'Digite o {i}º número: '))
     if numero % 2 == 0:
         valores.append(numero)
     else:
         valores.insert(0, numero)
 print(f'Pares:', end=' ')    
-lista_ordenada = valores.sort()
-for num in lista_ordenada :
+valores.sort()
+for num in valores :
     if num % 2 == 0:
         print(f'{num}', end=' ')
-
+print('')
 print('Impares:', end=' ')
-for num in lista_ordenada :  
+for num in valores:  
     if num % 2 != 0:
         print(f'{num}', end=' ')
