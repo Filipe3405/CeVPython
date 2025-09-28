@@ -2,7 +2,7 @@
 relatorio = []
 aluno = []
 while True:
-    nome = input('Aluno: ')
+    nome = input('Aluno: ').title()
     nota1 = int(input('Nota 1: '))
     nota2 = int(input('Nota 2: '))
     aluno.append(nome)
@@ -17,7 +17,7 @@ while True:
 for alunos in relatorio:
     print(f' {alunos[0]} Média: {(alunos[1]+alunos[2])/2}')
 
-pesquisa = input('Pesquise um aluno: ')
+pesquisa = input('Pesquise um aluno: ').title()
 for c in relatorio:
     if c[0] == pesquisa:
         print(c)
